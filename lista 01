@@ -98,9 +98,119 @@ Imprimir: "O VALOR DO DETERMINANTE E = (AD)-(BC)
 
 Questão 11
 
-Ler um vaor numérico inteiro n
+Ler um valor numérico inteiro n
 
 Se n for divisivel por 3 e 5, imprimir "É divisível"
+
+Questão 12
+
+leia(h)
+
+hA = h % 3 *5
+
+hI = ((h-hA)/3)*10
+
+valorPagamento = hI + hA
+
+imprima(O VALOR A PAGAR E = valorPagamento)\n
+
+Questão 13
+
+leia(n)
+
+se n estiver no intervalo de 9 a 10 imprima (NOTA = n CONCEITO = A)
+
+se n estiver no intervalo de 7.5 a 9 mprima (NOTA = n CONCEITO = b)
+
+se n estiver no intervalo de 6 a 7.5 imprima (NOTA = n CONCEITO = c)
+
+se n estiver no intervalo de 0 a 6 imprima (NOTA = n CONCEITO = d)
+
+Questão 14
+
+leia(h, a)
+
+ab = (3aa*√3)/2
+
+v = ab*h/3
+
+imprima(O VOLUME DA PIRAMIDE E = v METROS CUBICOS)
+
+Questão 15
+
+leia(n)
+
+i = 1
+
+X = 2
+
+enquanto i < n y = x*x
+
+imprima(f" {x}^2 = {y}")
+x = x + 2
+i = i + 2
+Questão 16
+
+leia(sf)
+
+se (sf <= 300 ): sfr = sf * 1.50
+
+senão: sfr = sf * 1.30
+
+imprima(SALARIO COM REAJUSTE = sfr)
+
+Questão 17
+
+leia(x, y)
+
+i=1
+
+se (x % 2 != 0):
+
+imprima(O PRIMEIRO NUMERO NAO E PAR)
+
+senao:
+
+imprima(x)
+enquanto i < y
+
+imprima(x+2)
+
+i = i + 1
+
+x = x + 2
+
+Questão 19
+
+leia(n)
+
+k=1
+
+n=2
+
+se n < 1: imprima número inválido
+
+senao: s = 1 + 1/k +s
+
+enquanto i < n
+ p = 1/k+1
+
+  k=k+1
+  i+i+1
+
+Questão 20
+
+leia(h, m, s)
+
+hs = h * 3600
+
+ms = m * 60
+
+tempoConvertido = hs + ms + s
+
+imprima(O TEMPO EM SEGUNDOS E = tempoConvertido)
+
+Produtos pagos do Colab - Cancelar contratos
 
 Senão imprimir "Não é divisivel"
 
